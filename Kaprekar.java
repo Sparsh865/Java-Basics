@@ -14,7 +14,7 @@ public class Kaprekar {
 
         int squared_number = n*n;
         int noOfDigits = length(n);
-        int divisor = (int) Math.pow(10, noOfDigits);
+        int divisor =  (int)Math.pow(10, noOfDigits);
         int leftPart = squared_number/divisor;
         int rightPart = squared_number%divisor;
         if(rightPart==0){

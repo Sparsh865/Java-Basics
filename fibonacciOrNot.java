@@ -5,7 +5,7 @@ public class fibonacciOrNot {
     public static int isFibonacci(int n){
         if(n==0) return 0;
         if(n==1) return 1;
-        int index =1;
+        int index = 1;
 
         int firstNumber = 0;
         int secondNumber = 1;
