@@ -8,7 +8,6 @@ public class Search {
         for(int i=0;i<size;i++){
             arr[i] = sc.nextInt();
         }
-
         
         int search = sc.nextInt();
         boolean flag = false;
