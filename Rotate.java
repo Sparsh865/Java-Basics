@@ -24,10 +24,8 @@ public class Rotate {
         // arr = {1,2,3,4,5} temp = {}
         System.arraycopy(arr, n - rotations, temp, 0, rotations);
         //arr={1,2,3,4,5} temp={4,5}
-        // Step 2: Shift the remaining elements of arr to the right
         System.arraycopy(arr, 0, arr, rotations, n - rotations);
         //arr={1,2,1,2,3} temp={4,5}
-        // Step 3: Copy the elements from temp to the beginning of arr
         System.arraycopy(temp, 0, arr, 0, rotations);
         //arr={4,5,1,2,3} temp={4,5}
 
